@@ -18,9 +18,6 @@
 package com.alibaba.nacos.config;
 
 /**
- * @author lengleng
- * @date 2019-10-31
- * <p>
  * 覆盖nacos 默认配置
  */
 public interface ConfigConstants {
