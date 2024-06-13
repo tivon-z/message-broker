@@ -1,0 +1,6 @@
+pub.broker.msgbroker.common.core.config.TaskExecutorConfiguration
+pub.broker.msgbroker.common.core.config.JacksonConfiguration
+pub.broker.msgbroker.common.core.config.RedisTemplateConfiguration
+pub.broker.msgbroker.common.core.config.RestTemplateConfiguration
+pub.broker.msgbroker.common.core.util.SpringContextHolder
+pub.broker.msgbroker.common.core.config.WebMvcConfiguration
