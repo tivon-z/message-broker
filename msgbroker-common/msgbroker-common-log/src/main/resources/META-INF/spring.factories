@@ -1,0 +1,2 @@
+org.springframework.boot.env.EnvironmentPostProcessor=\
+    pub.broker.msgbroker.common.log.init.ApplicationLoggerInitializer
