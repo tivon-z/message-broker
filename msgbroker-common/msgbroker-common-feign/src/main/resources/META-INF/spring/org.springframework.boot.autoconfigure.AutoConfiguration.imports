@@ -1,0 +1,3 @@
+pub.broker.msgbroker.common.feign.MsgbrokerFeignAutoConfiguration
+pub.broker.msgbroker.common.feign.sentinel.SentinelAutoConfiguration
+pub.broker.msgbroker.common.feign.sentinel.handle.GlobalBizExceptionHandler
