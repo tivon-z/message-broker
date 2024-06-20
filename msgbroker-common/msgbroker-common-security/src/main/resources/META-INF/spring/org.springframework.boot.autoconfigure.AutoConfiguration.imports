@@ -1,0 +1,7 @@
+pub.broker.msgbroker.common.security.service.MsgbrokerUserDetailsServiceImpl
+pub.broker.msgbroker.common.security.service.MsgbrokerAppUserDetailsServiceImpl
+pub.broker.msgbroker.common.security.service.MsgbrokerRedisOAuth2AuthorizationService
+pub.broker.msgbroker.common.security.service.MsgbrokerRedisOAuth2AuthorizationConsentService
+pub.broker.msgbroker.common.security.component.MsgbrokerSecurityInnerAspect
+pub.broker.msgbroker.common.security.component.MsgbrokerSecurityMessageSourceConfiguration
+pub.broker.msgbroker.common.security.service.MsgbrokerRemoteRegisteredClientRepository
