@@ -14,24 +14,24 @@
  * limitations under the License.
  */
 
-package pub.broker.msgbroker.common.core.constant;
+package pub.broker.msgbroker.monitor;
+
+import de.codecentric.boot.admin.server.config.EnableAdminServer;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * @author broker.pub
- * @date 2018年06月22日16:41:01 服务名称
+ * @date 2018年06月21日 监控中心
  */
-public interface ServiceNameConstants {
+@EnableAdminServer
+@EnableDiscoveryClient
+@SpringBootApplication
+public class MsgbrokerMonitorApplication {
 
-	/**
-	 * 认证服务的SERVICEID
-	 */
-	String AUTH_SERVICE = "msgbroker-auth";
-
-	/**
-	 * UPMS模块
-	 */
-	String UPMS_SERVICE = "msgbroker-upms-biz";
-
-	String OPERATION_SERVICE = "msgbroker-operation-biz";
+	public static void main(String[] args) {
+		SpringApplication.run(MsgbrokerMonitorApplication.class, args);
+	}
 
 }
