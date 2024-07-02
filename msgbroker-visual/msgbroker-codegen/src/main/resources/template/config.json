@@ -1,0 +1,12 @@
+{
+  "project": {
+    "packageName": "pub.broker.msgbroker",
+    "version": "1.0.0",
+    "backendPath": "msgbroker",
+    "frontendPath": "msgbroker-ui"
+  },
+  "developer": {
+    "author": "msgbroker",
+    "email": "PIG4CLOUD@qq.com"
+  }
+}
