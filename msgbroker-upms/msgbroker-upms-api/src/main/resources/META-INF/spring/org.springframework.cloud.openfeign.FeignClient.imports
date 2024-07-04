@@ -1,0 +1,6 @@
+pub.broker.msgbroker.admin.api.feign.RemoteClientDetailsService
+pub.broker.msgbroker.admin.api.feign.RemoteDictService
+pub.broker.msgbroker.admin.api.feign.RemoteLogService
+pub.broker.msgbroker.admin.api.feign.RemoteParamService
+pub.broker.msgbroker.admin.api.feign.RemoteTokenService
+pub.broker.msgbroker.admin.api.feign.RemoteUserService
