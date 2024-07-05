@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>pub.broker</groupId>
+		<artifactId>msgbroker</artifactId>
+		<version>${revision}</version>
+	</parent>
+
+	<artifactId>msgbroker-operation</artifactId>
+	<packaging>pom</packaging>
+
+	<!--项目子模块-->
+	<modules>
+		<module>msgbroker-operation-api</module>
+		<module>msgbroker-operation-biz</module>
+	</modules>
+</project>

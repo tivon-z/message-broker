@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="pub.broker.msgbroker.operation.mapper.OpMessageEmailMapper">
+
+  <resultMap id="opMessageEmailMap" type="pub.broker.msgbroker.operation.api.entity.OpMessageEmailEntity">
+        <id property="id" column="id"/>
+        <id property="messageId" column="message_id"/>
+        <id property="templateCode" column="template_code"/>
+        <id property="recipients" column="recipients"/>
+        <id property="cc" column="cc"/>
+        <id property="subject" column="subject"/>
+        <id property="content" column="content"/>
+        <id property="htmlFlag" column="html_flag"/>
+        <id property="state" column="state"/>
+        <id property="createTime" column="create_time"/>
+        <id property="updateTime" column="update_time"/>
+  </resultMap>
+</mapper>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+            http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>pub.broker</groupId>
+		<artifactId>msgbroker-operation</artifactId>
+		<version>${revision}</version>
+	</parent>
+
+	<artifactId>msgbroker-operation-api</artifactId>
+	<packaging>jar</packaging>
+
+	<dependencies>
+		<!--core 工具类-->
+		<dependency>
+			<groupId>pub.broker</groupId>
+			<artifactId>msgbroker-common-core</artifactId>
+		</dependency>
+		<!--feign 注解依赖-->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-openfeign-core</artifactId>
+			<optional>true</optional>
+		</dependency>
+		<!--mybatis 依赖-->
+		<dependency>
+			<groupId>pub.broker</groupId>
+			<artifactId>msgbroker-common-mybatis</artifactId>
+		</dependency>
+	</dependencies>
+</project>

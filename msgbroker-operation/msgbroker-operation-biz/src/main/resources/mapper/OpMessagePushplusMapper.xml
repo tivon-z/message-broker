@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="pub.broker.msgbroker.operation.mapper.OpMessagePushplusMapper">
+
+  <resultMap id="opMessagePushplusMap" type="pub.broker.msgbroker.operation.api.entity.OpMessagePushplusEntity">
+        <id property="id" column="id"/>
+        <id property="messageId" column="message_id"/>
+        <id property="templateCode" column="template_code"/>
+        <id property="token" column="token"/>
+        <id property="title" column="title"/>
+        <id property="content" column="content"/>
+        <id property="template" column="template"/>
+        <id property="topic" column="topic"/>
+        <id property="channel" column="channel"/>
+        <id property="webhook" column="webhook"/>
+        <id property="callbackUrl" column="callback_url"/>
+        <id property="timestamp" column="timestamp"/>
+        <id property="state" column="state"/>
+        <id property="createTime" column="create_time"/>
+        <id property="updateTime" column="update_time"/>
+  </resultMap>
+</mapper>

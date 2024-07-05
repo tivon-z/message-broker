@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="pub.broker.msgbroker.operation.mapper.OpApplicationMapper">
+
+  <resultMap id="opApplicationMap" type="pub.broker.msgbroker.operation.api.entity.OpApplicationEntity">
+        <id property="id" column="id"/>
+        <id property="code" column="code"/>
+        <id property="name" column="name"/>
+        <id property="userId" column="user_id"/>
+        <id property="accessKey" column="access_key"/>
+        <id property="expireTime" column="expire_time"/>
+        <id property="status" column="status"/>
+        <id property="remark" column="remark"/>
+        <id property="createTime" column="create_time"/>
+        <id property="updateTime" column="update_time"/>
+        <id property="delFlag" column="del_flag"/>
+  </resultMap>
+</mapper>
